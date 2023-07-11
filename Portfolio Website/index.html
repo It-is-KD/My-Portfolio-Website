@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--UNICONS===================================================================================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        
+<!--SWIPER CSS================================================================================-->
+        <link rel="stylesheet" href="CSS/swiper-bundle.min.css">
+        
+<!--CSS=======================================================================================-->
+        <link rel="stylesheet" href="CSS/style.css">
+
+        <title>My Portfolio Website</title>
+    </head>
+    <body>
+<!--HEADER====================================================================================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav_logo">Khush Desai</a>
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list grid">
+                        <li class="nav_item">
+                            <a href="#home" class="nav_link active-link">
+                                <i class="uil uil-estate nav_icon"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#about" class="nav_link">
+                                <i class="uil uil-user-circle nav_icon"></i> About Me
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#skills" class="nav_link">
+                                <i class="uil uil-info-circle nav_icon"></i> Skills
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#services" class="nav_link"> 
+                                <i class="uil uil-bag nav_icon"></i> Services
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#project" class="nav_link">
+                                <i class="uil uil-notebooks nav_icon"></i> Projects
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#contact" class="nav_link">
+                                <i class="uil uil-comment nav_icon"></i> Contact Me
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav_close" id="nav-close"></i>
+                </div>
+
+                <div class="nav_btns">
+                    
+                    <i class="uil uil-cloud-sun change-theme" id="theme-button"></i>
+                
+                    <div class="nav_toggle" id="nav-toggle">
+                            <i class="uil uil-apps nav_icon"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+<!--MAIN======================================================================================-->
+        <main class="main">
+    <!--HOME===============================================================================-->
+            <section class="home section" id="home">
+                <div class="home_container container grid">
+                    <div class="home_content grid">
+                        <!-- <div class="home_social">
+                            <a href="https://www.linkedin.com/in/khush-desai" target="_blank" class="home_social-icon">
+                                <i class="uil uil-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/It-is-KD" target="_blank" class="home_social-icon">
+                                <i class="uil uil-github"></i>
+                            </a>
+                        </div> -->
+                        <div class="home_img">
+                            <svg class="home_blob" id="sw-js-blob-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <mask id="mask0" mask-type="alpha">
+                                    <defs>
+                                        <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
+                                            <stop id="stop1" stop-color="rgba(248, 117, 55, 1)" offset="0%"></stop>
+                                            <stop id="stop2" stop-color="rgba(251, 168, 31, 1)" offset="100%"></stop>
+                                        </linearGradient>
+                                    </defs>
+                                    <path fill="url(#sw-gradient)" d="M19.5,-36C24.8,-30.8,28.1,-24.5,30.5,-18.3C33,-12.1,34.4,-6.1,34.2,-0.1C34.1,5.8,32.2,11.7,29.4,17.3C26.7,23,23.1,28.4,18.1,32C13,35.5,6.5,37.2,0.4,36.5C-5.7,35.7,-11.4,32.7,-16.3,29C-21.1,25.4,-25.2,21.1,-30.4,16.2C-35.5,11.3,-41.8,5.6,-43.5,-1C-45.3,-7.6,-42.4,-15.2,-37.6,-20.7C-32.7,-26.2,-25.9,-29.5,-19.3,-34C-12.7,-38.4,-6.3,-44,0.4,-44.7C7.1,-45.4,14.3,-41.3,19.5,-36Z" width="100%" height="100%" transform="translate(50 50)" stroke-width="0" style="transition: all 0.3s ease 0s;"></path>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path fill="url(#sw-gradient)" d="M19.5,-36C24.8,-30.8,28.1,-24.5,30.5,-18.3C33,-12.1,34.4,-6.1,34.2,-0.1C34.1,5.8,32.2,11.7,29.4,17.3C26.7,23,23.1,28.4,18.1,32C13,35.5,6.5,37.2,0.4,36.5C-5.7,35.7,-11.4,32.7,-16.3,29C-21.1,25.4,-25.2,21.1,-30.4,16.2C-35.5,11.3,-41.8,5.6,-43.5,-1C-45.3,-7.6,-42.4,-15.2,-37.6,-20.7C-32.7,-26.2,-25.9,-29.5,-19.3,-34C-12.7,-38.4,-6.3,-44,0.4,-44.7C7.1,-45.4,14.3,-41.3,19.5,-36Z" width="100%" height="100%" transform="translate(50 50)" stroke-width="0" style="transition: all 0.3s ease 0s;"></path>
+                                    <image class="home_blob-img"  xlink:href="imgs/khush.png"/>
+                                </g>
+                            </svg> 
+                        </div>
+                        <div class="home_data">
+                            <h1 class="home_title">Hi there!, I am Khush Desai</h1>
+                            <h3 class="home_subtitle">Full Stack Developer</h3>
+                            <p class="home_description">With experience in Web and Mobile Application Development, Exploring all other parts to being a Dev</p>
+                            <a href="#contact" class="button button--flex">Contact Me
+                                <i class="uil uil-comment nav_icon"></i>
+                            </a>
+                        </div>
+                        <!-- <div class="home_scroll">
+                            <a href="#about" class="home_scroll-button button--flex">
+                                <i class="uil uil-mouse-alt home_scroll-mouse"></i>
+                                <span class="home_scroll-name">Scroll Down</span>
+                                <i class="uil uil-angle-double-down home_scroll-arrow"></i>
+                            </a>
+                        </div> -->
+                    </div>
+                </div>
+            </section>
+
+    <!--ABOUT==============================================================================-->
+            <section class="about section" id="about">
+                <h2 class="section_title">About Me</h2> 
+                <span class="section_subtitle">My Introduction</span>
+                <div class="about_container container grid">
+                    <img src="imgs/aboutimg.png" alt="" class="about_image">
+                    <div class="about_data">
+                        <p class="about_description">Web and Mobile Application Developer, delivering quality work</p>
+                        <div class="about_info">
+                            <div>
+                                <span class="about_info-title">02+</span>
+                                <span class="about_info-name">Years <br> Experience</span>
+                            </div>
+                            <div>
+                                <span class="about_info-title">07+</span>
+                                <span class="about_info-name">Completed<br>Projects</span>
+                            </div>
+                        </div>
+                        <div class="about_buttons">
+                            <a download="" href="res/CV-Khush Desai.pdf" class="button button-flex">
+                                Download CV<i class="uil uil-folder-download button_icon"></i>
+                            </a>                    
+                        </div>
+                    </div>                    
+                </div>
+            </section>
+
+    <!--SKILLS=============================================================================-->
+            <section class="skills section" id="skills">
+                <h2 class="section_title">Skills</h2>
+                <span class="section_subtitle">My technical Skills</span>
+                <div class="skills_container container grid">
+                    <div>
+
+                        <div class="skills_content skills_open">
+                            <div class="skills_header">
+                                <i class="uil uil-brackets-curly skills_icon"></i>
+                                <div>
+                                    <h1 class="skills_title">Front End</h1>
+                                    <!-- <span class="skills_subtitle">*Years of experience lol*</span> -->
+                                </div>
+                                <i class="uil uil-angle-down skills_arrow"></i>
+                            </div>
+
+                            <div class="skills_list">
+
+                                <div class="skills_data">
+                                    <div class="skills_titles"> 
+                                        <h3 class="skills_name">HTML</h3>
+                                        <span class="skill_percentage">50%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_html"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_titles"> 
+                                        <h3 class="skills_name">CSS</h3>
+                                        <span class="skill_percentage">55%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_css"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_titles"> 
+                                        <h3 class="skills_name">Java Script</h3>
+                                        <span class="skill_percentage">50%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_js"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_titles"> 
+                                        <h3 class="skills_name">Struts 2</h3>
+                                        <span class="skill_percentage">60%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_struts"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="skills_content skills_close">
+                            <div class="skills_header">
+                                <i class="uil uil-server-alt skills_icon"></i>
+                                <div>
+                                    <h1 class="skills_title">Back End</h1>
+                                    <!-- <span class="skills_subtitle">*Years of experience lol*</span> -->
+                                </div>
+                                <i class="uil uil-angle-down skills_arrow"></i>
+                            </div>
+
+                            <div class="skills_list">
+
+                                <div class="skills_data">
+                                    <div class="skills_titles"> 
+                                        <h3 class="skills_name">Java</h3>
+                                        <span class="skill_percentage">60%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_java"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_titles"> 
+                                        <h3 class="skills_name">MySQL</h3>
+                                        <span class="skill_percentage">40%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_mysql"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_titles"> 
+                                        <h3 class="skills_name">C</h3>
+                                        <span class="skill_percentage">55%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_c"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_titles"> 
+                                        <h3 class="skills_name">C++</h3>
+                                        <span class="skill_percentage">55%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_cpp"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_titles"> 
+                                        <h3 class="skills_name">Python</h3>
+                                        <span class="skill_percentage">45%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_python"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        
+                        <div class="skills_content skills_close">
+                            <div class="skills_header">
+                                <i class="uil uil-servers skills_icon skills_icon"></i>
+                                <div>
+                                    <h1 class="skills_title">Full Stack</h1>
+                                    <!-- <span class="skills_subtitle">*Years of experience lol*</span> -->
+                                </div>
+                                <i class="uil uil-angle-down skills_arrow"></i>
+                            </div>
+
+                            <div class="skills_list">
+
+                                <div class="skills_data">
+                                    <div class="skills_titles"> 
+                                        <h3 class="skills_name">Mobile Application</h3>
+                                        <span class="skill_percentage">Android</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_titles"> 
+                                        <h3 class="skills_name">Web Application</h3>
+                                        <span class="skill_percentage">Apache Net Beans</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills_content skills_close">
+                            <div class="skills_header">
+                                <i class="uil uil-object-ungroup skills_icon"></i>
+                                <div>
+                                    <h1 class="skills_title">Designer</h1>
+                                    <!-- <span class="skills_subtitle">*Years of experience lol*</span> -->
+                                </div>
+                                <i class="uil uil-angle-down skills_arrow"></i>
+                            </div>
+
+                            <div class="skills_list">
+
+                                <div class="skills_data">
+                                    <div class="skills_titles"> 
+                                        <h3 class="skills_name">Figma</h3>
+                                        <span class="skill_percentage">80%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_figma"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_titles"> 
+                                        <h3 class="skills_name">Photoshop</h3>
+                                        <span class="skill_percentage">85%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_photoshop"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_titles"> 
+                                        <h3 class="skills_name">After Effects</h3>
+                                        <span class="skill_percentage">65%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_aftereffects"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_titles"> 
+                                        <h3 class="skills_name">Premier Pro</h3>
+                                        <span class="skill_percentage">45%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_premierpro"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+    <!--SERVICES===========================================================================-->
+            <section class="services section" id="services">
+                <h2 class="section_title">Services</h2>
+                <span class="section_subtitle">How can i help you?</span>
+                <div class="services_container container grid">
+
+                    <div class="service_content">
+                            <i class="uil uil-browser services_icon"></i>
+                            <h3 class="services_title">Ui/Ux<br>Designer</h3>
+
+                        <span class="button button--flex button--small button--link services_button">
+                            View More 
+                            <i class="uil uil-eye button_icon"></i>
+                        </span>
+
+                        <div class="services_modal">
+                            <div class="services_modal-content">
+                                <h4 class="services_modal-title">Ui/Ux<br>Designer</h4>
+                                <i class="uil uil-multiply services_modal-close"></i>
+
+                                <ul class="services_modal-service">
+
+                                    <li>
+                                        <i class="uil uil-check services_modal-icon"></i>
+                                        UI Design
+                                    </li>
+
+                                    <li>
+                                        <i class="uil uil-check services_modal-icon"></i>
+                                        Web Page Design
+                                    </li>
+    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="service_content">
+                        <i class="uil uil-apps services_icon"></i>
+                        <h3 class="services_title">Full Stack<br>Developer</h3>
+
+                        <span class="button button--flex button--small button--link services_button">
+                            View More 
+                            <i class="uil uil-eye button_icon"></i>
+                        </span>
+
+                        <div class="services_modal">
+                            <div class="services_modal-content">
+                                <h4 class="services_modal-title">Full Stack<br>Developer</h4>
+                                <i class="uil uil-multiply services_modal-close"></i>
+
+                                <ul class="services_modal-service">
+
+                                    <li>
+                                        <i class="uil uil-check services_modal-icon"></i> Android Application
+                                    </li>
+
+                                    <li>
+                                        <i class="uil uil-check services_modal-icon"></i> Web Application
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="service_content">
+                        <i class="uil uil-layers-alt services_icon"></i>
+                        <h3 class="services_title">Graphic<br>Designer</h3>
+
+                        <span class="button button--flex button--small button--link services_button">
+                            View More 
+                            <i class="uil uil-eye button_icon"></i>
+                        </span>
+
+                        <div class="services_modal">
+                            <div class="services_modal-content">
+                                <h4 class="services_modal-title">Graphic<br>Designer</h4>
+                                <i class="uil uil-multiply services_modal-close"></i>
+
+                                <ul class="services_modal-service">
+
+                                    <li>
+                                        <i class="uil uil-check services_modal-icon"></i> Photoshop
+                                    </li>
+                                    <li>
+                                        <i class="uil uil-check services_modal-icon"></i> Figma
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+    <!--PROJECTS===========================================================================-->
+            <section class="project section" id="project">
+                <h2 class="section_title">Projects</h2>
+                <span class="section_subtitle">Recent Projects I have worked on</span>
+                <div class="project_container container swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="project_content grid swiper-slide">
+                            <img src="imgs/portfolioimg.png" alt="" class="project_img">
+                            <div class="project_data">
+                                <h3 class="project_title">My Portfolio Website</h3>
+                                <p class="project_description">A responsive website to present a piece of my personality.</p>
+                                <a href="https://github.com/It-is-KD/My-Portfolio-Website" target="_blank" class="button button--flex button--small project_button">
+                                    <i class="uil uil-github project_icon"></i>Github
+                                    <i class="uil uil-angle-right-b button_icon"></i>
+                                </a>                            
+                            </div>
+                        </div>
+                        <div class="project_content grid swiper-slide">
+                            <img src="imgs/CDACimg.png" alt="" class="project_img">
+                            <div class="project_data">
+                                <h3 class="project_title">RRRLF Library Scheme</h3>
+                                <p class="project_description">CDAC Internship</p>
+                                <a href="https://github.com/It-is-KD/CDAC_Internship-Web_Applications" target="_blank" class="button button--flex button--small project_button">
+                                    <i class="uil uil-github project_icon"></i>Github
+                                    <i class="uil uil-angle-right-b button_icon"></i>
+                                </a>                            
+                            </div>
+                        </div>
+                        <div class="project_content grid swiper-slide">
+                            <img src="imgs/bioskopeimg.png" alt="" class="project_img">
+                            <div class="project_data">
+                                <h3 class="project_title">Bioskope</h3>
+                                <p class="project_description">Android Mobile App to view ratings, trailers, storyline, etc. of latest Movies and TV Shows and create the watchlist of the same.</p>
+                                <a href="https://github.com/It-is-KD/Bioskope" target="_blank" class="button button--flex button--small project_button">
+                                    <i class="uil uil-github project_icon"></i>Github
+                                    <i class="uil uil-angle-right-b button_icon"></i>
+                                </a>
+                                <a download="" href="res/Bioskope.apk" class="button button--flex button--small project_button">
+                                    <i class="uil uil-android project_icon"></i>Download
+                                    <i class="uil uil-angle-right-b button_icon"></i>
+                                </a>                            
+                            </div>
+                        </div>
+                        <div class="project_content grid swiper-slide">
+                            <img src="imgs/urlimg.png" alt="" class="project_img">
+                            <div class="project_data">
+                                <h3 class="project_title">Url Shortener</h3>
+                                <p class="project_description">Just as it sounds!</p>
+                                <a href="https://github.com/It-is-KD/Url-Shorterner" target="_blank" class="button button--flex button--small project_button">
+                                    <i class="uil uil-github project_icon"></i>Github
+                                    <i class="uil uil-angle-right-b button_icon"></i>
+                                </a>
+                                <a href="https://kd-urlshortener.000webhostapp.com/" target="_blank" class="button button--flex button--small project_button">
+                                    <i class="uil uil-external-link-alt project_icon"></i>Visit
+                                    <i class="uil uil-angle-right-b button_icon"></i>
+                                </a>                              
+                            </div>
+                        </div>
+                        <div class="project_content grid swiper-slide">
+                            <img src="imgs/calcimg.png" alt="" class="project_img">
+                            <div class="project_data">
+                                <h3 class="project_title">Calculator</h3>
+                                <p class="project_description">Simple Mobile Calculator for Android.</p>
+                                <a href="https://github.com/It-is-KD/Calculator" target="_blank" class="button button--flex button--small project_button">
+                                    <i class="uil uil-github project_icon"></i>Github
+                                    <i class="uil uil-angle-right-b button_icon"></i>
+                                </a>
+                                <a download="" href="res/Calculator.apk" class="button button--flex button--small project_button">
+                                    <i class="uil uil-android project_icon"></i>Download
+                                    <i class="uil uil-angle-right-b button_icon"></i>
+                                </a>                            
+                            </div>
+                        </div>
+                        <div class="project_content grid swiper-slide">
+                            <img src="imgs/unitimg.png" alt="" class="project_img">
+                            <div class="project_data">
+                                <h3 class="project_title">Unit Converter</h3>
+                                <p class="project_description">A handy dandy Unit Converting Website to convert your cms to inches.</p>
+                                <a href="https://github.com/It-is-KD/Unit-Converter" target="_blank" class="button button--flex button--small project_button">
+                                    <i class="uil uil-github project_icon"></i>Github
+                                    <i class="uil uil-angle-right-b button_icon"></i>
+                                </a>                            
+                                <a href="https://unit-converter-khush.netlify.app/" target="_blank" class="button button--flex button--small project_button">
+                                    <i class="uil uil-external-link-alt project_icon"></i>Visit
+                                    <i class="uil uil-angle-right-b button_icon"></i>
+                                </a> 
+                            </div>
+                        </div>
+                        <div class="project_content grid swiper-slide">
+                            <img src="imgs/paymentgatewayimg.png" alt="" class="project_img">
+                            <div class="project_data">
+                                <h3 class="project_title">Integrated Payment Gateway</h3>
+                                <p class="project_description">A Payment gateway Integrated into my portfolio Website.</p>
+                                <a href="https://github.com/It-is-KD/Integrated-Payment-Gateway" target="_blank" class="button button--flex button--small project_button">
+                                    <i class="uil uil-github project_icon"></i>Github
+                                    <i class="uil uil-angle-right-b button_icon"></i>
+                                </a>                            
+                                <a href="https://integratedpaymentgateway-khush.netlify.app/" target="_blank" class="button button--flex button--small project_button">
+                                    <i class="uil uil-external-link-alt project_icon"></i>Visit
+                                    <i class="uil uil-angle-right-b button_icon"></i>
+                                </a> 
+                            </div>
+                        </div>
+                        <div class="project_content grid swiper-slide">
+                            <img src="imgs/demoappimg.png" alt="" class="project_img">
+                            <div class="project_data">
+                                <h3 class="project_title">Demo App</h3>
+                                <p class="project_description">My first Android Application.</p>
+                                <a href="https://github.com/It-is-KD/DemoApp" target="_blank" class="button button--flex button--small project_button">
+                                    <i class="uil uil-github project_icon"></i>Github
+                                    <i class="uil uil-angle-right-b button_icon"></i>
+                                </a>      
+                                <a download="" href="res/DemoApp.apk" class="button button--flex button--small project_button">
+                                    <i class="uil uil-android project_icon"></i>Download
+                                    <i class="uil uil-angle-right-b button_icon"></i>
+                                </a>                        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"><i class="uil uil-angle-right swiper-project-icon"></i></div>
+                    <div class="swiper-button-prev"><i class="uil uil-angle-left swiper-project-icon"></i></div>
+                    <div class="swiper-pagination"></div>
+                 </div>
+            </section>
+
+    <!--CONTACT ME=========================================================================-->
+            <section class="contact section" id="contact">
+                <h2 class="section_title">Contact Me</h2>
+                <span class="section_subtitle">Connect with me</span>
+
+                <div class="contact_container container grid">
+                    <div>
+
+                        <div class="contact_info">
+                            <i class="uil uil-envelopes contact_icon"></i>
+
+                            <div>
+                                <h3 class="contact_title">Mail Me</h3>
+                                <a href="mailto:khush.desai.kol@gmail.com" target="_blank" class="contact_subtitle">khush.desai.kol@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact_info">
+                            <i class="uil uil-linkedin contact_icon"></i>
+
+                            <div>
+                                <h3 class="contact_title">Link through Linkedin</h3>
+                                <a href="https://www.linkedin.com/in/khush-desai" target="_blank" class="contact_subtitle">Khush Desai</a>                
+                            </div>
+                        </div>
+
+                        <form action="" class="contact_form-grid">
+                            <div class="contact_input grid">
+
+                                <div class="contact_content">
+                                    <label for="" class="contact_lable">Name</label>
+                                    <input type="text" class="contact_input">
+                                </div>
+                                <div class="contact_content">
+                                    <label for="" class="contact_lable">Email</label>
+                                    <input type="email" class="contact_input">
+                                </div>
+                                <div class="contact_content">
+                                    <label for="" class="contact_lable">Project</label>
+                                    <input type="text" class="contact_input">
+                                </div>
+                                <div class="contact_content">
+                                    <label for="" class="contact_lable">Message</label>
+                                    <textarea name="" id="" cols="0" rows="8" class="contact_input"></textarea>
+                                </div>
+                                <div>
+                                    <a href="#" class="button button--flex">Send Message
+                                        <i class="uil uil-messsage button_icon"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </section>
+        </main>
+
+<!--FOOTER====================================================================================-->
+        <footer class="footer">
+            <div class="footer_bg">
+                <div class="footer_container container grid">
+                    <div>
+                        <h1 class="footer_title">Khush</h1>
+                        <span class="footer_subtitle">Dev</span>
+                    </div>
+
+                    <ul class="footer_links">
+                        <li><a href="#home" class="footer_link">Home</a></li>
+                        <li><a href="#about" class="footer_link">About</a></li>
+                        <li><a href="#services" class="footer_link">Services</a></li>
+                        <li><a href="#project" class="footer_link">Projects</a></li>
+                        <li><a href="#contact" class="footer_link">Contact</a></li>
+                    </ul>
+
+                    <div class="footer_socials">
+                        <a href="https://www.linkedin.com/in/khush-desai" target="_blank" class="footer_social-icon">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/It-is-KD" target="_blank" class="footer_social-icon">
+                            <i class="uil uil-github"></i>
+                        </a>
+                    </div>
+
+                </div>
+                <!-- <div class="footer_payment">
+                    <form>
+                        <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_LsZkGjwPMCJmGF" async></script> 
+                    </form>
+                </div> -->
+                <p class="footer_copy">&#169 ItsKD. All rights reserved</p>
+            </div>
+        </footer>
+        
+<!--SCROLL TOP================================================================================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-angle-double-up scrollup_icon"></i>
+        </a>
+
+<!--SWIPER JS=================================================================================-->
+        <script src="JS/swiper-bundle.min.js"></script>
+
+<!--MAIN JS===================================================================================-->
+        <script src="JS/main.js"></script>
+    </body>
+</html>
