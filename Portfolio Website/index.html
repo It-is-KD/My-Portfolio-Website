@@ -607,29 +607,29 @@
                             </div>
                         </div>
 
-                        <form action="" class="contact_form-grid">
+                        <form class="contact_form-grid" onsubmit="sendEmail(); setTimeout(function(){window.location.reload();},600);">
                             <div class="contact_input grid">
 
                                 <div class="contact_content">
                                     <label for="" class="contact_lable">Name</label>
-                                    <input type="text" class="contact_input">
+                                    <input type="text" class="contact_input form-control" required id="name">
                                 </div>
                                 <div class="contact_content">
                                     <label for="" class="contact_lable">Email</label>
-                                    <input type="email" class="contact_input">
+                                    <input type="email" class="contact_input form-control" required id="email">
                                 </div>
                                 <div class="contact_content">
-                                    <label for="" class="contact_lable">Project</label>
-                                    <input type="text" class="contact_input">
+                                    <label for="" class="contact_lable">Subject</label>
+                                    <input type="text" class="contact_input" required id="subject">
                                 </div>
                                 <div class="contact_content">
                                     <label for="" class="contact_lable">Message</label>
-                                    <textarea name="" id="" cols="0" rows="8" class="contact_input"></textarea>
+                                    <textarea cols="0" rows="8" class="contact_input form-control" required id="text"></textarea>
                                 </div>
                                 <div>
-                                    <a href="#" class="button button--flex">Send Message
+                                    <button type="submit" class="button button--flex">Send Message
                                         <i class="uil uil-messsage button_icon"></i>
-                                    </a>
+                                    </button>
                                 </div>
 
                             </div>
@@ -683,6 +683,9 @@
 
 <!--SWIPER JS=================================================================================-->
         <script src="JS/swiper-bundle.min.js"></script>
+
+<!--SMTP JS===================================================================================-->        
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
 
 <!--MAIN JS===================================================================================-->
         <script src="JS/main.js"></script>
